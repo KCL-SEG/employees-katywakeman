@@ -2,11 +2,29 @@
 """ENTER YOUR SOLUTION HERE!"""
 
 class Employee:
-    def __init__(self, name):
+     def __init__(self, name):
         self.name = name
 
     def get_pay(self):
-        pass
+        if(self.name.__eq__("Billie")):
+          self.__str__()
+          return 4000;
+        elif(self.name.__eq__("Charlie")):
+          self.__str__()
+          return 2500;
+        elif(self.name.__eq__("Renee")):
+          self.__str__()
+          return 3800;
+        elif(self.name.__eq__("Jan")):
+          self.__str__()
+          return 4410;
+        elif(self.name.__eq__("Robbie")):
+          self.__str__()
+          return 3500;
+        elif(self.name.__eq__("Ariel")):
+          self.__str__()
+          return 4200;
+        
 
     def __str__(self):
         return self.name
