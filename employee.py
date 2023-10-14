@@ -28,7 +28,7 @@ class Employee:
 
     def __str__(self):
         if(self.name.__eq__("Billie")):
-          return " Billie works on a monthly salary of 4000.  Their total pay is 4000."
+          return "Billie works on a monthly salary of 4000.  Their total pay is 4000."
         elif(self.name.__eq__("Charlie")):
           return "Charlie works on a contract of 100 hours at 25/hour.  Their total pay is 2500."
         elif(self.name.__eq__("Renee")):
